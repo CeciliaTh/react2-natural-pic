@@ -1,0 +1,61 @@
+.galeria {
+  display: grid;
+  gap: 10px;
+}
+
+.grid-columns-5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+.grid-columns-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.galeria .foto {
+  cursor: pointer;
+  padding: 10px 10px 0px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: left;
+  text-shadow: 0px 0px 15px black;
+}
+
+.galeria .foto:hover {
+  box-shadow: 0px 0px 2px 1px black;
+}
+
+.galeria .foto svg {
+  align-self: flex-end;
+}
+
+.p-3 {
+  padding: 30px;
+}
+
+.btnFav{
+  background-color: transparent;
+  border:0;
+
+}
+
+.textAlt{
+  text-align: left;
+  color:white;
+  font-size: 0.7rem;
+  font-family: arial;
+  width: 100%;
+}
+
+.boxFoto{
+  padding:0.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  min-height: 150px;
+  justify-content: space-between;
+}
